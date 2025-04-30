@@ -1,0 +1,104 @@
+.contenido h2{
+    margin-top: 0;
+}
+.contenido img{
+    width: 200px;
+    height: 200px;
+    background: rgb(0, 0, 255);
+    margin: 50px;
+    border-radius: 10px;
+
+}
+header{
+    width: 1300x;
+    height: 100px;
+    background: orange;
+}
+header img{
+    width: 150px;
+    height: 75px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+h1{
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18;
+    color: red;
+    background: blue;
+}
+body{
+    background: rgb(30, 28, 25);
+}
+
+.div1:hover{
+    background: orange;
+    animation: Inferno 2s;
+}
+.div2:hover{
+    background: orange;
+    animation: Aire 2s;
+}
+.div3:hover{
+    background: orange;
+    animation: Agua 2s;
+}
+.div4:hover{
+    background: orange;
+    animation: Fuego 2s;
+}
+.div5:hover{
+    background: orange;
+    animation:Tierra 2s;
+}
+.div6:hover{
+    background: orange;
+    animation: Doc 2s;
+}
+.div7:hover{
+    background: orange;
+    animation: Carnero 2s;
+}
+
+
+.div8:hover{
+    background: orange;
+    animation: Demoledora 2s;
+}
+.div9:hover{
+    background: orange;
+    animation: Electro 2s;
+}
+.div10:hover{
+    background: orange;
+    animation: cierra 2s;
+}
+.div11:hover{
+    background: orange;
+    animation: Tornado 2s;
+}
+
+    
+     @keyframes Inferno{
+    0%{transform: rotate(360deg);}
+}
+@keyframes Aire{
+    0%{transform: scale(0.8);}
+}
+@keyframes Agua{
+    0%{transform: translateY(50px);}
+}
+@keyframes Fuego{
+    0%{transform: translateY(-50px);}
+}
+@keyframes Tierra{
+    0%{transform: translateX(50px);}
+}
+@keyframes Doc{
+    0%{transform: translateX(-50px);}
+}
+@keyframes Carnero{
+    0%{transform: rotate(-360deg);}
+ 
+}
